@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button android:id="@+id/play" android:text="播放" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/pause" android:text="暂停" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/next" android:text="下一集" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/prev" android:text="上一集" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/seek_fwd_10" android:text="快进10秒" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/seek_fwd_60" android:text="快进60秒" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/seek_back_10" android:text="回退10秒" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/seek_back_60" android:text="回退60秒" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/btn_config" android:text="修改IP和密码" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
